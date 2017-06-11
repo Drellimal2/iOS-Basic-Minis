@@ -12,6 +12,8 @@
 		35E068811EED977B008641CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E0687F1EED977B008641CC /* Main.storyboard */; };
 		35E068831EED977B008641CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E068821EED977B008641CC /* Assets.xcassets */; };
 		35E068861EED977B008641CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E068841EED977B008641CC /* LaunchScreen.storyboard */; };
+		35E0688E1EED9A96008641CC /* ClickCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0688D1EED9A96008641CC /* ClickCounterViewController.swift */; };
+		35E068901EED9BBA008641CC /* ColorMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0688F1EED9BBA008641CC /* ColorMakerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		35E068821EED977B008641CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35E068851EED977B008641CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35E068871EED977B008641CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E0688D1EED9A96008641CC /* ClickCounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickCounterViewController.swift; sourceTree = "<group>"; };
+		35E0688F1EED9BBA008641CC /* ColorMakerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorMakerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				35E068821EED977B008641CC /* Assets.xcassets */,
 				35E068841EED977B008641CC /* LaunchScreen.storyboard */,
 				35E068871EED977B008641CC /* Info.plist */,
+				35E0688D1EED9A96008641CC /* ClickCounterViewController.swift */,
+				35E0688F1EED9BBA008641CC /* ColorMakerViewController.swift */,
 			);
 			path = "Basic Minis";
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E0688E1EED9A96008641CC /* ClickCounterViewController.swift in Sources */,
 				35E0687E1EED977B008641CC /* ViewController.swift in Sources */,
 				35E0687C1EED977B008641CC /* AppDelegate.swift in Sources */,
+				35E068901EED9BBA008641CC /* ColorMakerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
